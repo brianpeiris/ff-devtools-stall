@@ -9,6 +9,7 @@ module.exports = async (env, argv) => {
     },
     output: {
       filename: "[name]-[chunkhash].js",
+      path: path.join(__dirname, "public")
     },
     devtool: "inline-source-map",
     plugins: [

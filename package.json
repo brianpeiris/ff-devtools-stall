@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "serve": "browser-sync start -s dist -w --no-open --no-notify --no-ghost-mode"
+    "serve": "browser-sync start -s public -w --no-open --no-notify --no-ghost-mode"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
